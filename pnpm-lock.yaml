@@ -1,0 +1,128 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@laihoe/demoparser2':
+        specifier: ^0.41.1
+        version: 0.41.1
+
+packages:
+
+  '@laihoe/demoparser2-android-arm-eabi@0.41.1':
+    resolution: {integrity: sha512-HWIAkDDh2IQSMamgi+q55xdQAcBSXZ+w1amykdbLS+6TbUUHT4y6MHQ2aCHZ7Tz1+H29kWUEKtuQf1r//0Uk6g==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [android]
+
+  '@laihoe/demoparser2-android-arm64@0.41.1':
+    resolution: {integrity: sha512-0MfNnqiK3TA+KweY34QySobVVSN6igKJe99lVc68gKcysJ7giBhmsOuLtVYTOIgb8Mfg0GWluSYu2UH06wYbTw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [android]
+
+  '@laihoe/demoparser2-darwin-arm64@0.41.1':
+    resolution: {integrity: sha512-VWH0xYm7S1i+W8IRbLlMLHiYt1qC8z1yAM824b+iggezm9mSrhPDBUczPhbGBhXwBUHonS8437UPhZHzgFPhVQ==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@laihoe/demoparser2-linux-arm-gnueabihf@0.41.1':
+    resolution: {integrity: sha512-dVWvU0DgCkek62TXK2nSX/kR1VX4fkwPX+UGeFUilLbNfrkjeKHjpOvb8CdwRCMDhB+tr0Qiv/5JK6vUUe21Jw==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [linux]
+
+  '@laihoe/demoparser2-linux-arm64-gnu@0.41.1':
+    resolution: {integrity: sha512-8Nfqi7FcdG9sTDu31XORgf0H4JiXbe0KpKwSpDm6SO6QEg5GtrXEuoc459maW2ZSdQbEVp3bwTkqhrKzNqzzBw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@laihoe/demoparser2-linux-arm64-musl@0.41.1':
+    resolution: {integrity: sha512-Gy7D44d0GqRaGK5MJMbHn5mHytVLvWf9MsLw8FYXhjI6UyEw0kIZm/aV4yfVTEe1f+OhvzgR88hvSoKdlS4GqA==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@laihoe/demoparser2-linux-x64-gnu@0.41.1':
+    resolution: {integrity: sha512-jSe1JxVMxCgu+btmZbBHTZhj+Fg0Bpb8tMMQoBGPXj7h64+XCWyPPiDdRYMlBEJkYyS8Yk4L+ihxdUOALtBCpg==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@laihoe/demoparser2-linux-x64-musl@0.41.1':
+    resolution: {integrity: sha512-Dj8ZH2HGuHalpakc7DUXddKGA7QmCC6ygtojPG0/KN1Qa2xdAqoWYrzZdpsXStyC0BrkHfIKymJ+r/tyBhDsnw==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@laihoe/demoparser2-win32-arm64-msvc@0.41.1':
+    resolution: {integrity: sha512-cg3jUa86IADH5d+TrPOuKYK6OcLuwnbJm9il7bm2nrp8zo1qjX1dwEsuzAxtckRiU94abwbyCC8/5oIGkpAUww==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@laihoe/demoparser2-win32-x64-msvc@0.41.1':
+    resolution: {integrity: sha512-ZDbMjtyMzXeuqnIAIlRzKfawap++ev1oT4CpeVtyA/HdvK3Y1ptLx0rvISKkXYaTMxyr+ZAWX0M52DvJXuFV1Q==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+
+  '@laihoe/demoparser2@0.41.1':
+    resolution: {integrity: sha512-nZ0pHbtGXpuwjndTMOzzzRp5oDoUwg8ictCj3JbVqIhr9D0L+4QcVK/xEIsgQUNqpP4DJSkQPGfYKktGgS4lZQ==}
+    engines: {node: '>= 10'}
+
+snapshots:
+
+  '@laihoe/demoparser2-android-arm-eabi@0.41.1':
+    optional: true
+
+  '@laihoe/demoparser2-android-arm64@0.41.1':
+    optional: true
+
+  '@laihoe/demoparser2-darwin-arm64@0.41.1':
+    optional: true
+
+  '@laihoe/demoparser2-linux-arm-gnueabihf@0.41.1':
+    optional: true
+
+  '@laihoe/demoparser2-linux-arm64-gnu@0.41.1':
+    optional: true
+
+  '@laihoe/demoparser2-linux-arm64-musl@0.41.1':
+    optional: true
+
+  '@laihoe/demoparser2-linux-x64-gnu@0.41.1':
+    optional: true
+
+  '@laihoe/demoparser2-linux-x64-musl@0.41.1':
+    optional: true
+
+  '@laihoe/demoparser2-win32-arm64-msvc@0.41.1':
+    optional: true
+
+  '@laihoe/demoparser2-win32-x64-msvc@0.41.1':
+    optional: true
+
+  '@laihoe/demoparser2@0.41.1':
+    optionalDependencies:
+      '@laihoe/demoparser2-android-arm-eabi': 0.41.1
+      '@laihoe/demoparser2-android-arm64': 0.41.1
+      '@laihoe/demoparser2-darwin-arm64': 0.41.1
+      '@laihoe/demoparser2-linux-arm-gnueabihf': 0.41.1
+      '@laihoe/demoparser2-linux-arm64-gnu': 0.41.1
+      '@laihoe/demoparser2-linux-arm64-musl': 0.41.1
+      '@laihoe/demoparser2-linux-x64-gnu': 0.41.1
+      '@laihoe/demoparser2-linux-x64-musl': 0.41.1
+      '@laihoe/demoparser2-win32-arm64-msvc': 0.41.1
+      '@laihoe/demoparser2-win32-x64-msvc': 0.41.1

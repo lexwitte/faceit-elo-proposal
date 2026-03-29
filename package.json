@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "dependencies": {
+    "@laihoe/demoparser2": "^0.41.1"
+  }
+}
